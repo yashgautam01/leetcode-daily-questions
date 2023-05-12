@@ -6,6 +6,7 @@ class Solution {
       queue.offer(c);
 
     var c = 'R';
+    
     while (!queue.isEmpty()) {
       c = queue.poll();
       
