@@ -8,6 +8,7 @@ class Solution {
     var c = 'R';
     while (!queue.isEmpty()) {
       c = queue.poll();
+      
       queue.offer(c);
 
       if (c == 'R' && !queue.remove('D'))
