@@ -9,6 +9,7 @@ class Solution {
     while (!queue.isEmpty()) {
       c = queue.poll();
       
+      
       queue.offer(c);
 
       if (c == 'R' && !queue.remove('D'))
