@@ -3,6 +3,7 @@ class Solution {
     public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
         Set<Integer> destinations = new HashSet<>();
         
+        
         for (List<Integer> edge : edges) {
             destinations.add(edge.get(1));
         }
