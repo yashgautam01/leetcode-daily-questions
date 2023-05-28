@@ -10,6 +10,7 @@ class Solution {
 
 
 
+
         }
 	
                avg = (avg)/(salary.length-2); // finding mean and excluding min and max values. 
