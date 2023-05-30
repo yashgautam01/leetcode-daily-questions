@@ -8,6 +8,7 @@ class Solution {
         int l = 0;
         
         
+        
         while(l<=r || t<=b){
             if(t<=b){
                 for(int i= l ;i<=r;i++){
