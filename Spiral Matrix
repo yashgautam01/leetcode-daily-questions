@@ -2,6 +2,7 @@ class Solution {
     public List<Integer> spiralOrder(int[][] mat) {
         ArrayList<Integer> l1= new ArrayList<>();
         int t =0;
+        
         int b = mat.length-1;
         int r =mat[0].length-1;
         int l = 0;
