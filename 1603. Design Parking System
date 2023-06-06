@@ -9,6 +9,7 @@ class ParkingSystem {
         if (spots[carType - 1] > 0) {
 
             spots[carType - 1]--;
+            
             return true;
         } else {
             return false;
