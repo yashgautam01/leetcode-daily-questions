@@ -7,6 +7,7 @@ class ParkingSystem {
 
     public boolean addCar(int carType) {
         if (spots[carType - 1] > 0) {
+
             spots[carType - 1]--;
             return true;
         } else {
