@@ -5,6 +5,7 @@ class ParkingSystem {
         spots = new int[]{big, medium, small};
     }
 
+
     public boolean addCar(int carType) {
 
     
