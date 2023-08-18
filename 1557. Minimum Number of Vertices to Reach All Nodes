@@ -6,6 +6,7 @@ class Solution {
         
         for (List<Integer> edge : edges) {
             destinations.add(edge.get(1));
+
         }
         
         
