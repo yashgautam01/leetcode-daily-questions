@@ -9,6 +9,7 @@ class Solution {
 
             String dividend = query.get(0);
 
+
             String divisor = query.get(1);
 
             if (!graph.containsKey(dividend) || !graph.containsKey(divisor)) {
