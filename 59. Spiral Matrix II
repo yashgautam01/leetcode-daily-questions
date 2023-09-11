@@ -17,6 +17,7 @@ class Solution {
             if (top <= bottom) {
                 for (int i = right; i >= left; i--) {
                     matrix[bottom][i] = num++;
+
                 }
                 bottom--;
             }
