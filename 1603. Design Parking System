@@ -16,6 +16,7 @@ class ParkingSystem {
 
 
 
+
             spots[carType - 1]--;
             
             return true;
