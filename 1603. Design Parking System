@@ -1,3 +1,4 @@
+
 class ParkingSystem {
     private int[] spots;
 
