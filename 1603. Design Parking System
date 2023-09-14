@@ -11,6 +11,7 @@ class ParkingSystem {
 
 
 
+
         if (spots[carType - 1] > 0) {
 
 
