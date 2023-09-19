@@ -10,6 +10,7 @@ class Solution {
             String dividend = query.get(0);
 
 
+
             String divisor = query.get(1);
 
 
